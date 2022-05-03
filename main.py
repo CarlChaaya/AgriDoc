@@ -6,7 +6,6 @@ from logging import FileHandler,WARNING
 import os
 from PIL import Image
 import json
-from flask_ngrok import run_with_ngrok
 import urllib.request
 import pyrebase
 import shutil
@@ -150,8 +149,6 @@ config = {
   "appId" : "1:607522976371:web:053bbde0545963a349f006"
 }
 
-
-run_with_ngrok(app)
 @app.route('/')
 def home_endpoint():
   return 'Hello World!'
