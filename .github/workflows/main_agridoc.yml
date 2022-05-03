@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'AgriDoc'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13B0CD05C6204017A85F81894FEF9140 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C22813C3C36F4243961025FC7998AA09 }}
