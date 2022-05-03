@@ -19,6 +19,7 @@ sseclient
 pycrypto
 requests-toolbelt
 pyrebase
+gunicorn
 
 # Logging -------------------------------------
 tensorboard>=2.4.1
